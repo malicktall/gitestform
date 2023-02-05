@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <style>
+    input[type='range']{
+      width: 200px;
+    }
+    input[type='submit'], input[type='button']{
+      width: 100px;
+    }
+    input{
+      width: 400px;
+    }
+  </style>
+    <h2>Formulaire  d'inscription</h2>
+
+    <h4>Informations de connexion</h4>
+
+    <form action="#" method="post">
+      <label for="pseudo">Pseudo</label> <br/>
+      <input type="text" name="pseudo" placeholder="votre pseudo en un seul mot"><br/>
+      <label for="mdp">Mot de passe</label><br/>
+      <input type="password" name="pseudo" placeholder="votre mot de passe en 8 caractere mini"><br/>
+      <label for="mdp">Retaper le mot de passe</label><br/>
+      <input type="password" name="pseudo" placeholder="Retaper le meme mot de passe">
+      
+      <h4>Identité du candidat</h4>
+      
+      <label for="nom et prenom">Nom et Prénoms</label><br/>
+      <input type="text"><br/>
+      <label for="entreprise">Entreprise/Societé</label><br/>
+      <input type="text" name="entreprise"><br/>
+      <label for="telephone">Cellulaire/Téléphone</label><br/>
+      <input type="tel" name="tel" ><br/>
+      <label for="email">Email</label><br/>
+      <input type="email" name="email" ><br/>
+      <label for="commune">Votre commune</label><br/>
+      <select name="commune" id="" >
+        <option value="">Choisir votre commune</option>
+        <option value="">Gossas</option>
+        <option value="">Dakar</option>
+        <option value="">Oussouye </option>
+        <option value="">Podor </option>
+      </select><br/>
+      <label for="adress">Adresse exacte(Quartier / Rue / Porte)</label><br>
+      <textarea name="adress"  cols="40" rows="5"></textarea>
+
+      <h4>Compétences en informatique</h4>
+
+      <label for="niveau">Niveau en programmation Python</label><br>
+      <input type="range" ><br />
+      <label for="niveau">Niveau en CSS</label><br>
+      <input type="range" ><br />
+      <label for="niveau">Niveau en HTML</label><br>
+      <input type="range" ><br /><br />
+
+      <label for="cv">Votre CV(au format PDF ou en word - Taille max 10Mo):</label>
+      <input type="file" name="" id=""><br>
+
+      <input type="submit" value="Valider">
+      <input type="button" value="Annuler"><br>
+</body>
+</html>
+
